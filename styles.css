@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.navbar, 
+.dropdown-menu {
+    background-color: #e44d3a!important;
+    font-size: 14px!important;
+}
+
+.dropdown-menu {
+    width: 250px;
+}
+
+.fas.fa-search {
+    color: #e44d3a!important;
+}
+.form-control {
+    width: 300px!important;
+}
+
+.nav-link,
+.dropdown-item {
+    color: white!important;
+}
+.profile-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #cc4635;
+    border-right: 1px solid #cc4635;
+}
+.icon-nav-img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.fas {
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.user-dropdown {
+    background-color: white!important;
+}
+
+.form-check-label {
+    color: grey!important;
+}
+
+.custom-p,
+.custom-a {
+    font-size: 15px;
+}
+
+.links-user,
+.custom-a {
+    color: black!important;
+}
+
+.custom-a {
+    text-align: center;
+}
+
+.header-container {
+    background-color: white;
+    max-width: 94.666667%!important;
+}
+.section-title h2 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btn-green {
+    background-color: #53d690;
+}
+
+.btn-red {
+    background-color:#e44d3a;
+}
+.btn-blue {
+    background-color: #51a5fb;
+}
+
+.card-body .fas.fa-envelope {
+    font-size: 20px;
+}
+
+.card-img-top {
+    height: 90px!important;
+    width: 90px!important;
+    border-radius: 50%;
+}
+
+.card-link {
+    width: 100%;
+}
+
+.card {
+    flex: 1 1 auto;
+}
+
+.spinner {
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    
+}
+
+.spinner1,
+.spinner2,
+.spinner3 {
+    height: 20px;
+    width: 20px;
+    top: calc(50% - 10px);
+}
+.spinner1 {
+    left: 10px;
+    animation-duration: 1.2s;
+   
+}
+.spinner2 {
+    left: calc(50% - 10px);
+    animation-duration: 1.2s;
+    animation-delay: 0.2s;
+}
+.spinner3 {
+    right: 10px;
+    animation-duration: 1.2s;
+    animation-delay: 0.4s;
+}
+
+.footer {
+    background-color: white;
+    height: 70px;
+    font-size: 13px;
+}
+
+.footer .fas.fa-copyright {
+    font-size: 14px;
+    line-height: 14px!important;
+}
+.footer-link {
+    color: #6c757d!important;
+}
+.footer-link:hover {
+    text-decoration: none;
+    color: #e44d3a!important;
+}
+
+.footer .container {
+    justify-content: space-between;
+    max-width: 1230px!important;
+}
